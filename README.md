@@ -1,2 +1,2 @@
 # Portfólio Pessoal
-![Preview do Portifólio](https://imgur.com/xeVsBGk)
+![Preview do Portifólio](https://imgur.com/mE4rRy8)
