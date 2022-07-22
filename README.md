@@ -1,6 +1,2 @@
-#Portfólio
-This is a personal portfolio project for practice HTML &amp; CSS and JS
-Base: Channel -> FONT
-
-![Imgur](https://imgur.com/xeVsBGk)
-<img src="https://imgur.com/xeVsBGk"></img>
+# Portfólio Pessoal
+![Preview do Portifólio](https://imgur.com/xeVsBGk)
