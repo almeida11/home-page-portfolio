@@ -11,6 +11,20 @@ $(document).ready(function () {
 
 //add funcionalidades dos botoes iniciais
 
+//button home route
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Meta Pixel Code -->
 !function (f, b, e, v, n, t, s) {
     if (f.fbq) return; n = f.fbq = function () {
