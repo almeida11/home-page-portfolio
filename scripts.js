@@ -8,7 +8,7 @@ $(document).ready(function () {
     });
 });
 //não está funcionando ao rolar o scroll // avaliar o que está errado
-
+ 
 //add funcionalidades dos botoes iniciais
 
 //button home route
