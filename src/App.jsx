@@ -5,6 +5,7 @@ import './App.css'
 
 //reaproveitamento de estruturas
 import { Outlet } from 'react-router-dom'
+import Navbar from './components/Navbar'
 //outlet passa o conteudo central
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <div className="App">
+      
       <Outlet/> 
     </div>
   )

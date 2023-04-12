@@ -1,0 +1,15 @@
+section {
+  margin: auto;
+  padding: 25px;
+  border-radius: 25px;
+  background-color: bisque;
+}
+
+h1{
+  color: #000;
+}
+p {
+  color: #000;
+  font-size: 18px;
+  text-align: justify;
+}
