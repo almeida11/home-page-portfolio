@@ -7,7 +7,6 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './routes/home/Home';
 import Letter from './routes/letter/Letter';
-import Navbar from './components/Navbar';
 
 //ROTAS PADRÃO SEM REAPROVEITAR ELEMENTOS
 

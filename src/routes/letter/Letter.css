@@ -1,11 +1,13 @@
 .container {
+  width: 100vw;
   display: grid;
-  grid-template-rows: 50px 350px 350px;
-  grid-template-columns: 350px 350px 350px;
+  grid-template-rows: 8vw 15vw 15vw;
+  grid-template-columns: 15vw 15vw 15vw;
   grid-gap: 1.5em;
+  padding-left: 25%;
 }
 .title {
-  background-color: #F6AE8C;
+  font-weight: bold;
   grid-row: 1 / 1;
   grid-column: 1 / 4;
   margin: auto;
@@ -28,16 +30,7 @@
   border: 1px solid #f1ff;
   background-color: #F7A9B9;
 }
-.item02{
-  border-radius: 25px;
-  border: 1px solid #f1ff;
-  background-color: #F6AE8C;
-}
-.item03{
-  border-radius: 25px;
-  border: 1px solid #f1ff;
-  background-color: #F7F2D6;
-}
+
 h1 {
   padding: 5px;
   font-size: 25px;
