@@ -15,8 +15,10 @@ const Navbar = () => {
               <Link class="link" to={"/"}>Inicio</Link>
               <Link class="link" to={"/"}>Sobre</Link>
               <Link class="link" to={"/"}>Projetos</Link>
-              <Link class="link" to={"/"}>Contatos</Link>
+              <Link class="link" to={"/"}>Contato</Link>
+              {/*
               <Link class="link" to={"/"}>Letter</Link>
+              */}
             </ul>
             <div class="menu-btn">
               <ion-icon name="menu-outline"></ion-icon>

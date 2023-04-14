@@ -47,7 +47,6 @@ table {
 .navbar {
   background-color: black;
   width: 100vw;
-  padding:15px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
 }
@@ -126,22 +125,13 @@ table {
       text-align: center;
       transition: all 0.3s ease;
   }
-  .navbar .menu li{
-      display: block; 
-  }
   .navbar .menu .link{
     display: block; 
 }
-  .navbar .menu li a{
-      display: inline-block;
+  .navbar .menu .link{
       margin: 20px 0;
       font-size: 25px; 
   }
-  .navbar .menu .link{
-    display: inline-block;
-    margin: 20px 0;
-    font-size: 25px; 
-}
   .home .home-content .text-2{
       font-size: 70px;
   }

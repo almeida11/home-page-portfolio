@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
 *{
     margin: 0;
@@ -10,10 +11,31 @@
 /*-------------------------###-----------------------------*/
 .home{
     display: flex;
-    background: black; /*optional image background*/
-    height: 100vh;
+    flex-direction: column;
+    background: black;
     color: #fff;
-    min-height: 500px;
     font-family: "Ubuntu", sans-serif;
-    align-items: center;
+}
+.home span{
+    color: #CA69FF;
+}
+.home-title{
+    margin-left: 18rem;
+    margin-top: 8rem;
+    font-weight: bold;
+}
+.home-title span{
+    font-weight: bold;
+}
+
+.github {
+    width: 8rem;
+    border: 2px solid #CA69FF;
+    border-radius: 5px;
+}
+
+.linkedin {
+    width: 8rem;
+    border: 2px solid #3633ee;
+    border-radius: 5px;
 }
