@@ -43,21 +43,20 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
+body {
+  overflow: hidden; 
+}
 .navbar {
-  background-color: black;
+  background-color: #121214;
   width: 100vw;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
-}
-
-.navbar.sticky{
-  background: #CA69FF;
-  padding:30px 0;
+  padding: 1rem;
 }
 
 .navbar .max-width{
   display: flex;
+  margin-left: 3.5rem;
   align-items: center;
   justify-content: space-between;
 }
@@ -69,7 +68,7 @@ table {
 }
 
 .navbar .logo .link-a{
-  color: #CA69FF;
+  color: #77EB3D;
 }
 
 .navbar.sticky .logo span{
@@ -89,7 +88,10 @@ table {
   transition: color 0.3s ease; /*colored text on hover*/
 }
 .navbar .menu :hover{
-  color: #CA69FF; /*color of the text hover*/
+  color: #77EB3D; /*color of the text hover*/
+  text-shadow: 
+  0 0 10px #77EB3D,
+  0 0 20px #77EB3D;
 }
 
 .navbar.sticky .menu link:hover{

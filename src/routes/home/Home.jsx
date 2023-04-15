@@ -10,14 +10,6 @@ const Home = () => {
         <span>MATEUS DE ALMEIDA</span>
         <h3>Desenvolvedor Web</h3>
       </div>
-      {/*
-      <div className='github'>
-        <GithubIcon/>
-      </div>
-      <div className='linkedin'>
-        <LinkedinIcon/>
-      </div>
-       */}
     </div>
   );
 };

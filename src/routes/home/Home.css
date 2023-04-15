@@ -12,30 +12,31 @@
 .home{
     display: flex;
     flex-direction: column;
-    background: black;
+    background: #121214;
     color: #fff;
     font-family: "Ubuntu", sans-serif;
+    height: 100vh;
 }
+
 .home span{
-    color: #CA69FF;
+    color: #77EB3D;
 }
+
 .home-title{
     margin-left: 18rem;
     margin-top: 8rem;
     font-weight: bold;
+    font-size: 30px;
 }
+
 .home-title span{
+    font-size: 45px;
     font-weight: bold;
 }
 
-.github {
-    width: 8rem;
-    border: 2px solid #CA69FF;
-    border-radius: 5px;
-}
-
-.linkedin {
-    width: 8rem;
-    border: 2px solid #3633ee;
-    border-radius: 5px;
+.home span{
+    color: #77EB3D;
+    text-shadow: 
+    0 0 10px #77EB3D,
+    0 0 15px #77EB3D;
 }

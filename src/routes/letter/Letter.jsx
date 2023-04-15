@@ -22,12 +22,7 @@ const Letter = () => {
         <p>Evento: Comer Açai</p>
         <p>Primeira vez que nos beijamos</p>
       </div>
-      <div className="item01">
-        <h1>10/04/2023</h1>
-        <p>Casa</p>
-        <p>Evento: segredo</p>
-        <p>Primeira vez</p>
-      </div>
+
     </div>
   );
 };

@@ -5,7 +5,6 @@ const Navbar = () => {
   return (
     <nav>
       <div class="navbar">
-        <div class="sticky">
           <div class="max-width">
             <div class="logo">
               <Link class="link" to={"/"}>Port</Link>
@@ -24,7 +23,6 @@ const Navbar = () => {
               <ion-icon name="menu-outline"></ion-icon>
             </div>
           </div>
-        </div>
       </div>
     </nav>
   );
