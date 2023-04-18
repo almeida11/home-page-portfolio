@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*-------------------------###-----------------------------*/
+.containner{
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+   
+}
+.project{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title{
+    width: 100vw;
+    height: 5vh;
+    grid-column: 1 / 4;
+    background-color: brown;
+}
+
+h1{
+    font-size: 2rem;
+    margin-left: 0;
+}
+
+.project-card1{
+    margin: 2rem auto;
+    width: 20rem;
+    height: 20rem;
+    background-color: black;
+}
+.project-card2{
+    margin: auto;
+    width: 20rem;
+    height: 20rem;
+    background-color: rgb(143, 63, 63);
+}
+.project-card3{
+    margin: auto;
+    width: 20rem;
+    height: 20rem;
+    background-color: black;
+}
+.project-card4{
+    margin: auto;
+    width: 20rem;
+    height: 20rem;
+    background-color: rgb(143, 63, 63);
+}

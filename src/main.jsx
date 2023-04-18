@@ -7,6 +7,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './routes/home/Home';
 import Letter from './routes/letter/Letter';
+import Project from './routes/projects/Project';
 
 //ROTAS PADRÃO SEM REAPROVEITAR ELEMENTOS
 
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "letter",
         element: <Letter/>,
+      },
+      {
+        path: "projects",
+        element: <Project/>,
       },
     ]
   },

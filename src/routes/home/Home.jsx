@@ -10,10 +10,11 @@ const Home = () => {
         <span>MATEUS DE ALMEIDA</span>
         <h3>Desenvolvedor Web</h3>
       </div>
+       <div className="image-home">
+        
+       </div>
     </div>
   );
 };
 
 export default Home
-
-
