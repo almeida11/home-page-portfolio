@@ -5,3 +5,8 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+:root{
+    --lilas-color:#8144E5;
+    --cinza-suave: #F7FAFF;
+    
+}

@@ -3,7 +3,7 @@ import './App.css'
 
 //reaproveitamento de estruturas
 import { Outlet } from 'react-router-dom'
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar/Navbar'
 //outlet passa o conteudo central
 
 function App() {

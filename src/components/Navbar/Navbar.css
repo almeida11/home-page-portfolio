@@ -52,8 +52,22 @@ body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+:root{
+  --rosa-claro: #F7CAC9;
+  --vermelho: #FF5E5E;
+  --branco: #FFFFFF;
+  --cinza-claro: #ECECEC;
+  --azul-claro: #AED6F1;
+  --rosa-suave: #F5D0D0;
+  --verde-suave: #D4ECD4;
+  --amarelo-suave: #F2E8C4;
+  --lilas-suave: #E6D4F7;
+  --azul-suave: #D1EAF0;
+  --preto: #000000;
+}
+/*NAVBAR*/
 .navbar {
-  background-color: #121214;
+  background-color: var(--azul-suave);
   width: 100vw;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
@@ -66,28 +80,27 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
+/*LOGO PORTFOLIO*/
 .navbar .logo a, span{
-  color: #fff;
+  color: var(--preto);
   font-size: 35px;
   font-weight: 500;
 }
-
+/*LOGO COLOR GREEN AND WHITE*/
 .navbar .logo .link-a{
   color: #77EB3D;
 }
-
 .navbar.sticky .logo span{
   color: #fff;
 }
-
+/*STYLE LINKS NAVBAR*/
 .navbar .menu .link{
+  color: var(--preto);
   list-style: none;
   display: inline-block;
 }
-
 .navbar .menu .link{
-  color: #fff;
+  color: var(--preto);
   font-size: 22px;
   font-weight: 500;
   margin-left: 25px;
@@ -95,16 +108,13 @@ body {
 }
 .navbar .menu :hover{
   color: #77EB3D; /*color of the text hover*/
-  text-shadow: 
-  0 0 10px #77EB3D,
-  0 0 20px #77EB3D;
 }
-
 .navbar.sticky .menu link:hover{
-  color: #fff;
+  color: #fff; /*reset color to white*/
 }
 
-/*menu-mobile*/
+
+/*MOBILE MENU*/
 .menu-btn{
   color: #fff;
   font-size: 26px;

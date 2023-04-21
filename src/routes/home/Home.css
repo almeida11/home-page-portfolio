@@ -5,13 +5,25 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+:root{
+    --rosa-claro: #F7CAC9;
+    --vermelho: #FF5E5E;
+    --branco: #FFFFFF;
+    --cinza-claro: #ECECEC;
+    --azul-claro: #AED6F1;
+    --rosa-suave: #F5D0D0;
+    --verde-suave: #D4ECD4;
+    --amarelo-suave: #F2E8C4;
+    --lilas-suave: #E6D4F7;
+    --azul-suave: #D1EAF0;
+  }
 /*-------------------------###-----------------------------*/
 /*----------------------home page--------------------------*/
 /*-------------------------###-----------------------------*/
 .home{
     display: flex;
     flex-direction: column;
-    background: #121214;
+    background: var(--azul-suave);
     color: #fff;
     font-family: "Ubuntu", sans-serif;
     height: 100vh;
@@ -22,6 +34,7 @@
 }
 
 .home-title{
+    color: black;
     margin-left: 18rem;
     margin-top: 8rem;
     font-weight: bold;
@@ -35,7 +48,4 @@
 
 .home span{
     color: #77EB3D;
-    text-shadow: 
-    0 0 10px #77EB3D,
-    0 0 15px #77EB3D;
 }
