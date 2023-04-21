@@ -26,6 +26,7 @@
     background: var(--azul-suave);
     color: #fff;
     font-family: "Ubuntu", sans-serif;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -48,4 +49,36 @@
 
 .home span{
     color: #77EB3D;
+}
+@media (max-width: 970px){
+    .home{
+        margin: auto;
+    }
+    .home-title{
+        margin-left: 8rem;
+        color: black;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    .home-title span{
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+@media (max-width: 850px){
+    .home{
+        margin: auto;
+    }
+    .home-title{
+        margin-left: 5rem;
+        color: black;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    .home-title span{
+        font-size: 30px;
+        font-weight: bold;
+    }
 }

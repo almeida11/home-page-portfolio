@@ -13,7 +13,6 @@
 .container {
   display: flex;
   width: 100vw;
-  height: 100vh;
   flex-direction: column;
   background-color: var(--azul-suave);
 }
@@ -21,20 +20,36 @@
   padding: 1rem;
   font-weight: bold; 
   text-align: center;
-  font-size: 2rem;
+  font-size: 13px;
   background-color: var(--azul-suave);
-}
 
+  margin-top: 75px;
+}
+.notes{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
 .text{
   margin: 1rem auto;
-  margin-left: 25%;
   padding: 1rem;
   border-radius: 1rem;
   background-color: var(--rosa-claro);
-  width: 50vw;
-  height: 25vh;
+  width: 650px;
+  height: 150px;
 }
 .text p{
+  text-align: justify;
+}
+.text-2{
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--rosa-claro);
+  width: 550px;
+  height: 80px;
+}
+.text-2 p{
   text-align: justify;
 }
 
@@ -149,5 +164,15 @@ p{
     width: 80vw;
     height: 35vh;
     text-align: justify;
+  }
+  .text{
+    margin: 10px;
+    width: 350px;
+    height: 250px;
+  }
+  .text-2{
+    margin: 10px;
+    width: 350px;
+    height: 100px;
   }
 }

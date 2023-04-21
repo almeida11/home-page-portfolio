@@ -2,22 +2,22 @@ import "./Navbar.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
-
-const Navbar = () => {
+const NavbarRes = () => {
   const [isOpen, setISOpen] = useState(false);
   return (
     <nav>
       <div class="navbar">
           <div class="max-width">
             <div class="logo">
-              <a className="link"href="#inicio">Port<a className="link-a" href="#inicio">fólio</a></a>
+              <Link class="link" to="/">Port<Link className="link-a"  to="/">fólio</Link></Link>
             </div>
             <div class={`menu ${isOpen && "open"}`}>
-              <a href="#inicio">Inicio</a>
-              <a href="#about">Sobre</a>
-              <a href="#projects">Projetos</a>
-              <a href="">Contato</a>
+              <Link to="/">Inicio</Link>
+              <Link to="/about">Sobre</Link>
+              <Link to="/projects">Projetos</Link>
+              <Link to="/contato">Contato</Link>
               {/*/letter*/}
             </div>
             <div className={`menu-btn ${isOpen && "open"}`} onClick={() => setISOpen(!isOpen)}>
@@ -29,4 +29,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarRes;
