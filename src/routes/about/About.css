@@ -8,5 +8,46 @@
 :root{
     --lilas-color:#8144E5;
     --cinza-suave: #F7FAFF;
-    
+    --rosa-claro: #F7CAC9;
+    --vermelho: #FF5E5E;
+    --branco: #FFFFFF;
+    --cinza-claro: #ECECEC;
+    --azul-claro: #AED6F1;
+    --rosa-suave: #F5D0D0;
+    --verde-suave: #D4ECD4;
+    --amarelo-suave: #F2E8C4;
+    --lilas-suave: #E6D4F7;
+    --azul-suave: #D1EAF0;
+    --lilas-claro: #A293FF;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.about-body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(var(--azul-suave)25%, black);
+}
+
+.about{
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 600px;
+    height: 150px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+}
+
+.about p {
+    color: rgb(0, 0, 0);
+    font-size:x-large;
+    text-align: justify;
+}
+.about strong{
+    font-weight: bold; 
+    color: var(--lilas-claro);
 }

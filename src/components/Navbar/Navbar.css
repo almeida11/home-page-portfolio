@@ -64,13 +64,18 @@ body {
   --lilas-suave: #E6D4F7;
   --azul-suave: #D1EAF0;
   --preto: #000000;
+  --lilas-claro: #A293FF;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 /*NAVBAR*/
 .navbar {
   background-color: var(--azul-suave);
   width: 100vw;
+  height: 12vh;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
   padding: 1rem;
@@ -94,7 +99,8 @@ a{
 }
 /*LOGO COLOR GREEN AND WHITE*/
 .navbar .logo .link-a{
-  color: #77EB3D;
+  color: var(--lilas-claro);
+
 }
 /*STYLE LINKS NAVBAR*/
 .navbar .menu a{
@@ -110,7 +116,7 @@ a{
   transition: color 0.3s ease; /*colored text on hover*/
 }
 .navbar .menu :hover{
-  color: #77EB3D; /*color of the text hover*/
+  color: var(--lilas-claro); /*color of the text hover*/
 }
 .navbar.sticky .menu a:hover{
   color: #fff; /*reset color to white*/
