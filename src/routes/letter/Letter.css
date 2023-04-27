@@ -17,14 +17,13 @@
   width: 100vw;
   flex-direction: column;
   background-color: var(--azul-suave);
-  background-image: linear-gradient(var(--azul-suave)0% 20%, var(--vermelho) 60% 60%, var(--azul-suave) 95% 100%);
+  background-image: linear-gradient(180deg, #748ffc 11%, #ed6ea0 66%);
 }
 .resume{
   padding: 1rem;
   font-weight: bold; 
   text-align: center;
   font-size: 13px;
-  background-color: var(--azul-suave);
   color: black;
 
   margin-top: 75px;
@@ -40,7 +39,7 @@
   border-radius: 1rem;
   background-color: var(--rosa-claro);
   width: 650px;
-  height: 150px;
+  height: 120px;
   color: black;
 }
 .text p{
@@ -53,11 +52,26 @@
   border-radius: 1rem;
   background-color: var(--rosa-claro);
   width: 550px;
-  height: 80px;
+  height: 85px;
   color: black;
 }
 .text-2 p{
-  text-align: justify;
+  text-align: center;
+  color: black;
+}
+
+.text-3{
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--rosa-claro);
+  width: 550px;
+  height: 85px;
+  color: black;
+}
+.text-3 p{
+  text-align: center;
+  color: black;
 }
 
 .events{
@@ -179,9 +193,14 @@ p{
   .text{
     margin: 10px;
     width: 350px;
-    height: 250px;
+    height: 200px;
   }
   .text-2{
+    margin: 10px;
+    width: 350px;
+    height: 100px;
+  }
+  .text-3{
     margin: 10px;
     width: 350px;
     height: 100px;

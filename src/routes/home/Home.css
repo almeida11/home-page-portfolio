@@ -17,6 +17,8 @@
     --lilas-suave: #E6D4F7;
     --azul-suave: #D1EAF0;
     --lilas-claro: #A293FF;
+    --azul-escuro: #0B0D23;
+    --azul-destaque: #8AD3E2;
   }
 /*-------------------------###-----------------------------*/
 /*----------------------home page--------------------------*/
@@ -24,7 +26,7 @@
 .home{
     display: flex;
     flex-direction: column;
-    background: var(--azul-suave);
+    background: var(--azul-escuro);
     color: #fff;
     font-family: "Ubuntu", sans-serif;
     width: 100vw;
@@ -32,15 +34,19 @@
 }
 
 .home span{
-    color: #77EB3D;
+    color: var(--azul-destaque);
 }
 
 .home-title{
-    color: black;
+    color: rgb(255, 255, 255);
     margin-left: 18rem;
-    margin-top: 8rem;
+    margin-top: 13rem;
     font-weight: bold;
     font-size: 30px;
+
+}
+.home-title h3{
+    color: var(--branco);
 }
 
 .home-title span{
@@ -49,7 +55,9 @@
 }
 
 .home span{
-    color: var(--lilas-claro);
+    color: var(--azul-destaque);
+    text-shadow:0 0 30px var(--azul-destaque), 
+                0 0 40px var(--azul-destaque);
 }
 @media (max-width: 970px){
     .home{

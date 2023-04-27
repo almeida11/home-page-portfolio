@@ -8,7 +8,7 @@ const NavbarRes = () => {
   const [isOpen, setISOpen] = useState(false);
   return (
     <nav>
-      <div class="navbar">
+      <div class="navbarres">
           <div class="max-width">
             <div class="logo">
               <Link class="link" to="/">Port<Link className="link-a"  to="/">fólio</Link></Link>
