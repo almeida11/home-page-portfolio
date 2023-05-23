@@ -10,11 +10,11 @@ import Home from './routes/home/Home'
 import About from './routes/about/About'
 import Project from './routes/projects/Project'
 import NavbarRes from './components/Navbar/NavbarRes'
+
 //outlet passa o conteudo central
 
 
 function App() {
-  const [count, setCount] = useState(0)
   const location = useLocation()
 
   return (

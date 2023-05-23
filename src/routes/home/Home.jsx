@@ -12,7 +12,9 @@ const Home = () => {
           <h3>Desenvolvedor Web</h3>
         </div>
       </div>
-      <div className="img-home"></div>
+      <div className="window">
+        <h3>Terminal</h3>
+      </div>
     </div>
   );
 };

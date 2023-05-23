@@ -1,5 +1,13 @@
 import './Letter.css';
 import React from "react";
+import foto from "./assets/foto.png";
+import alianca from "./assets/alianca.png";
+import foto1 from "./assets/foto1.jpeg";
+import foto2 from "./assets/foto2.jpeg";
+import foto3 from "./assets/foto3.jpeg";
+import foto4 from "./assets/foto4.jpeg";
+import foto5 from "./assets/foto5.jpeg";
+import foto6 from "./assets/foto6.jpeg";
 
 const Letter = () => {
   return (
@@ -53,6 +61,32 @@ const Letter = () => {
               <li><div className='heart'></div></li>
             </div>
           </ul>
+        </div>
+      </div>
+      <div className="photo">
+        <div className="card">
+          <img className="foto" src={foto} alt="" />
+        </div>
+        <div className="card">
+          <img className="foto" src={foto1} alt="" />
+        </div>
+        <div className="card">
+          <img className="foto" src={foto5} alt="" />
+        </div>
+        <div className="card">
+          <img className="foto" src={alianca} alt="" />
+        </div>
+        <div className="card">
+          <img className="foto" src={foto2} alt="" />
+        </div>
+        <div className="card">
+          <img className="foto" src={foto3} alt="" />
+        </div>
+        <div className="card">
+          <img className="foto" src={foto6} alt="" />
+        </div>
+        <div className="card">
+          <img className="foto" src={foto4} alt="" />
         </div>
       </div>
     </div>

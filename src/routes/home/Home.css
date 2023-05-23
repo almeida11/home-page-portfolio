@@ -25,12 +25,13 @@
 /*-------------------------###-----------------------------*/
 .home{
     display: flex;
-    flex-direction: column;
     background: var(--azul-escuro);
     color: #fff;
     font-family: "Ubuntu", sans-serif;
     width: 100vw;
     height: 100vh;
+    gap: 10rem;
+     
 }
 
 .home span{
@@ -59,6 +60,19 @@
     text-shadow:0 0 30px var(--azul-destaque), 
                 0 0 40px var(--azul-destaque);
 }
+
+.window{
+    display: flex;
+    width: 55rem;
+    height: 30rem;
+    background-color: black;
+    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8AD3E2;
+}
+
+
 @media (max-width: 970px){
     .home{
         margin: auto;
