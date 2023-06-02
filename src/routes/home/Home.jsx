@@ -13,7 +13,7 @@ const Home = () => {
         </div>
       </div>
       <div className="window">
-        <h3>Terminal</h3>
+        <h3>Terminal?</h3>
       </div>
     </div>
   );
