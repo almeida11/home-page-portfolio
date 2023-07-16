@@ -9,6 +9,14 @@ import foto4 from "./assets/foto4.jpeg";
 import foto5 from "./assets/foto5.jpeg";
 import foto6 from "./assets/foto6.jpeg";
 
+import foto10 from "./assets/foto10.jpg";
+import foto11 from "./assets/foto11.jpg";
+import foto12 from "./assets/foto12.jpg";
+import foto13 from "./assets/foto13.jpg";
+import foto14 from "./assets/foto14.jpg";
+import foto15 from "./assets/foto15.jpg";
+import foto16 from "./assets/foto16.jpg";
+import foto17 from "./assets/foto17.jpg";
 const Letter = () => {
   return (
     <div className="container">
@@ -24,8 +32,12 @@ const Letter = () => {
           <p>- Carl Sagan</p>
         </div>
         <div className="text-3">
-          <p>Eu não te amo com minha cabeça e com meu coração, eu te amo com minha alma, no caso da minha cabeça esquecer e do meu coração parar</p>
+          <p>Eu não te amo com minha cabeça e com meu coração, eu te amo com minha alma, no caso da minha cabeça esquecer e do meu coração parar.</p>
           <p>- Rumi</p>
+        </div>
+        <div className="text-3">
+          <p>Eu te amo porque todo o universo conspirou para que eu chegasse até você.</p>
+          <p>- Paulo Coelho</p>
         </div>
       </div>
       <div className="events">
@@ -63,21 +75,18 @@ const Letter = () => {
           </ul>
         </div>
       </div>
-      <div className="photo">
+      <div className="photo">        
         <div className="card">
-          <img className="foto" src={foto} alt="" />
+          <img className="foto" src={alianca} alt="" />
+        </div>
+        <div className="card">
+          <img className="foto" src={foto2} alt="" />
         </div>
         <div className="card">
           <img className="foto" src={foto1} alt="" />
         </div>
         <div className="card">
           <img className="foto" src={foto5} alt="" />
-        </div>
-        <div className="card">
-          <img className="foto" src={alianca} alt="" />
-        </div>
-        <div className="card">
-          <img className="foto" src={foto2} alt="" />
         </div>
         <div className="card">
           <img className="foto" src={foto3} alt="" />
@@ -87,6 +96,32 @@ const Letter = () => {
         </div>
         <div className="card">
           <img className="foto" src={foto4} alt="" />
+        </div>
+
+
+        <div className="card">
+          <img className="foto" src={foto10} alt="" />
+        </div>
+        <div className="card">
+          <img className="foto" src={foto11} alt="" />
+        </div>
+        <div className="card">
+          <img className="foto" src={foto12} alt="" />
+        </div>
+        <div className="card">
+          <img className="foto" src={foto13} alt="" />
+        </div>
+        <div className="card">
+          <img className="foto" src={foto14} alt="" />
+        </div>
+        <div className="card">
+          <img className="foto" src={foto15} alt="" />
+        </div>
+        <div className="card">
+          <img className="foto" src={foto16} alt="" />
+        </div>
+        <div className="card">
+          <img className="foto" src={foto17} alt="" />
         </div>
       </div>
     </div>
