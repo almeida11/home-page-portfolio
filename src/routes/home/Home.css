@@ -25,7 +25,7 @@
 /*-------------------------###-----------------------------*/
 .home{
     display: flex;
-    background: var(--azul-escuro);
+    background: #000000;
     color: #fff;
     font-family: "Ubuntu", sans-serif;
     width: 100vw;
@@ -35,7 +35,8 @@
 }
 
 .home span{
-    color: var(--azul-destaque);
+    color: #FFFFFF;
+    font-weight: bold;
 }
 
 .home-title{
@@ -47,7 +48,11 @@
 
 }
 .home-title h3{
-    color: var(--branco);
+    color: #38BDF8;
+}
+.home-title h4{
+    color: #38BDF8;
+    font-size: 18px;
 }
 
 .home-title span{
@@ -55,11 +60,11 @@
     font-weight: bold;
 }
 
-.home span{
+/* .home span{
     color: var(--azul-destaque);
     text-shadow:0 0 30px var(--azul-destaque), 
                 0 0 40px var(--azul-destaque);
-}
+} */
 
 .window{
     display: flex;

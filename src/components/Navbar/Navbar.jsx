@@ -11,13 +11,17 @@ const Navbar = () => {
       <div class="navbar">
           <div class="max-width">
             <div class="logo">
-              <a className="link"href="#inicio">Port<a className="link-a" href="#inicio">fólio</a></a>
+              <span>
+                <a className="link-a" href="#inicio">&lt;</a>
+                <a className="link" href="#inicio">Almeida</a>
+                <a className="link-a" href="#inicio">/&gt;</a>
+              </span>
             </div>
             <div class={`menu ${isOpen && "open"}`}>
-              <a href="#inicio">Inicio</a>
-              <a href="#about">Sobre</a>
-              <a href="#projects">Projetos</a>
-              <a href="">Contato</a>
+              <a className="link" href="#inicio">Inicio</a>
+              <a className="link" href="#about">Sobre</a>
+              <a className="link" href="#projects">Projetos</a>
+              <a className="link" href="">Contato</a>
               {/*/letter*/}
             </div>
             <div className={`menu-btn ${isOpen && "open"}`} onClick={() => setISOpen(!isOpen)}>

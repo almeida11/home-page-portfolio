@@ -75,7 +75,7 @@ html {
 
 /*NAVBAR*/
 .navbar {
-  background-color: var(--azul-escuro);
+  background-color: #000000;
   width: 100vw;
   height: 12vh;
   font-family: "Ubuntu", sans-serif;
@@ -118,21 +118,17 @@ a{
   margin-left: 25px;
   transition: color 0.3s ease; /*colored text on hover*/
 }
-.navbar .menu :hover{
-  color: var(--azul-destaque); /*color of the text hover*/
-  text-shadow:0 0 30px var(--azul-destaque), 
-              0 0 40px var(--azul-destaque);
-}
+
 .navbar.sticky .menu a:hover{
   color: #fff; /*reset color to white*/
 }
 
 /*Line animation navbar*/
-a {
+.link {
   position: relative;
   text-decoration: none;  
 }
-a:before {
+.link:before {
   content: "";
   position: absolute;
   width: 100%;
