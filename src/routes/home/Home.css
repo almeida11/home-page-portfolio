@@ -17,7 +17,7 @@
     --lilas-suave: #E6D4F7;
     --azul-suave: #D1EAF0;
     --lilas-claro: #A293FF;
-    --azul-escuro: #0B0D23;
+    --azul-escuro: #181216;
     --azul-destaque: #8AD3E2;
   }
 /*-------------------------###-----------------------------*/
@@ -62,21 +62,17 @@
 
 /* .home span{
     color: var(--azul-destaque);
+<<<<<<< Updated upstream
     text-shadow:0 0 30px var(--azul-destaque), 
                 0 0 40px var(--azul-destaque);
 } */
-
-.window{
-    display: flex;
-    width: 55rem;
-    height: 30rem;
-    background-color: black;
-    margin-top: 10rem;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #8AD3E2;
+=======
 }
+>>>>>>> Stashed changes
 
+.text-home{
+    font-size: 18px;
+}
 
 @media (max-width: 970px){
     .home{

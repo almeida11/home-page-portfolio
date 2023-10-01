@@ -28,7 +28,11 @@ html {
     width: 100vw;
     height: 100vh;
     display: flex;
+<<<<<<< Updated upstream
     background-color: #000000;
+=======
+    background-color: #181216;
+>>>>>>> Stashed changes
 }
 
 .about{

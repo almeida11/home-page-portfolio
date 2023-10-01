@@ -18,10 +18,17 @@ const Navbar = () => {
               </span>
             </div>
             <div class={`menu ${isOpen && "open"}`}>
+<<<<<<< Updated upstream
               <a className="link" href="#inicio">Inicio</a>
               <a className="link" href="#about">Sobre</a>
               <a className="link" href="#projects">Projetos</a>
               <a className="link" href="">Contato</a>
+=======
+              <a href="#inicio">Inicio</a>
+              <a href="#about">Sobre</a>
+              <a href="#projects">Projetos</a>
+              {/* <a href="">Contato</a> */}
+>>>>>>> Stashed changes
               {/*/letter*/}
             </div>
             <div className={`menu-btn ${isOpen && "open"}`} onClick={() => setISOpen(!isOpen)}>
